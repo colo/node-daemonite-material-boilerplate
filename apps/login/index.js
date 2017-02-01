@@ -161,7 +161,7 @@ module.exports = new Class({
 				"var apps = "+JSON.stringify([{ id: 'login'}])+";",
 			];
 			
-			view.css.push("https://colorlib.com/polygon/gentelella/css/animate.min.css");
+			//view.css.push("https://colorlib.com/polygon/gentelella/css/animate.min.css");
 			view.css.push("/public/apps/login/css/index.css");
 			view.style = null;
 			view.apps = [];

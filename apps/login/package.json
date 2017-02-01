@@ -6,7 +6,6 @@
   "main": "./",
   "engines": { "node": ">= 0.10.21" },
   "dependencies": {
-	"mootools": "1.4"
   },
   "devDependencies": {},
   "optionalDependencies": {},
