@@ -124,9 +124,10 @@ var MyApp = new Class({
 				"var update_view = function(params){ apps = params; };\n"
       ],
       css: [
-				"/public/bower/bootstrap/dist/css/bootstrap.min.css",
-				"/public/bower/daemonite-material/css/material.min.css",
-				"/public/bower/daemonite-material/css/project.min.css"
+				"http://daemonite.github.io/material/css/material.min.css",
+      	//"/public/bower/bootstrap/dist/css/bootstrap.min.css",
+				//"/public/bower/daemonite-material/css/material.min.css",
+				//"/public/bower/daemonite-material/css/project.min.css"
       ],
       style: "",
 			

@@ -570,6 +570,8 @@ head.ready('mootools-more', function(){
 					{ page_deps: [
 						{ tether: "/public/bower/tether/dist/js/tether.js" },
 						{ bootstrap: "/public/bower/bootstrap/dist/js/bootstrap.min.js"},
+						//{ bootstrap: "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"},
+						
 						{ material: "/public/bower/daemonite-material/js/material.min.js" },
 						{ project: "/public/bower/daemonite-material/js/project.min.js" },
 						]
