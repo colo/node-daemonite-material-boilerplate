@@ -48,6 +48,14 @@ head.ready('mootools-more', function(){
 				////console.log(app);
 				//self[app.id] = ko.observable(null);
 			//});
+			
+			self.breadcrumb = ko.observableArray([
+				{ active: 'active',
+					href: '/',
+					item: 'Home',
+				}
+			]);
+			
 			self.apps().forEach(function(app, index){
 				console.log('app observable');
 				console.log(app.id);
@@ -89,6 +97,22 @@ head.ready('mootools-more', function(){
 				//{label: 'second', href: '/dashboard/more'}
 			//]); 
 			
+		},
+		append_breadcrumb: function(item){
+			console.log('append_breadcrumb');
+			
+			if(item.active == 'active'){
+				var breadcrum = Object.assign([], this.breadcrumb());
+				this.breadcrumb.removeAll();
+				breadcrum.forEach(function(item, index){
+					item.active = '';
+					console.log(item);
+					//this.breadcrumb()[index] = item;
+					
+					this.breadcrumb.push(item);
+				}.bind(this));
+			}		
+			this.breadcrumb.push(item);
 		}
 	});
 

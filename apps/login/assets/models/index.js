@@ -106,7 +106,7 @@ $( document ).ready(function() {
      */
     // testLocalStorageData();
     // Load profile if it exits
-    loadProfile();
+    //loadProfile();
 });
 
 /**
