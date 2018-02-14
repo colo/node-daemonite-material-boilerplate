@@ -1,5 +1,5 @@
 {
-  "name": "express-test2",
+  "name": "node-daemonite-material-boilerplate",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
     "cradle-pouchdb-server": "^0.7.1",
     "express-handlebars": "^3.0.0",
     "multer": "^1.1.0",
+    "node-express-app": "git+https://github.com/colo/node-express-app.git",
     "serve-index": "^1.7.3",
     "serve-static": "^1.10.2"
   }
